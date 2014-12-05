@@ -1,8 +1,8 @@
 import template from './firebaseAuthentication.template.html!text';
 import angular from 'angular';
 // import {firebaseAuthenticationControllerModule} from './firebaseAuthentication.controller';
-import {firebaseLoginDirectiveModule} from './firebaseLogin/firebaseLogin.directive';
-import {firebaseLogoutDirectiveModule} from './firebaseLogout/firebaseLogout.directive';
+// import {firebaseLoginDirectiveModule} from './firebaseLogin/firebaseLogin.directive';
+// import {firebaseLogoutDirectiveModule} from './firebaseLogout/firebaseLogout.directive';
 
 export let firebaseAuthenticationDirectiveModule = angular.module('firebaseAuthenticationDirectiveModule', [
   // firebaseAuthenticationControllerModule.name,
