@@ -1,10 +1,9 @@
 <!doctype html>
 <html>
-  <body ng-cloak>
+  <body>
     <firebase-authentication-directive>
       <button ng-click="login()" class="button button-full button-positive">Login</button>
       <button ng-click="logout()" class="button button-full button-outline button-assertive">Logout</button>
-      <input type="text" ng-model="user.uid" />
       <img ng-show="user" ng-src="http://graph.facebook.com/{{user.uid.split(':')[1]}}/picture"/>
     </firebase-authentication-directive>
     <script src="jspm_packages/system.js"></script>
