@@ -3,7 +3,7 @@ import {firebaseAuthenticationDirectiveModule} from 'app/components/firebaseAuth
 export let firebaseAuthentificationConfigModule = angular.module('firebaseAuthentificationConfigModule', [
   firebaseAuthenticationDirectiveModule.name
 ]);
-//firebase module config
+
 firebaseAuthentificationConfigModule.config(['fbsAuthProvider', function(fbsAuthProvider) {
   fbsAuthProvider.setAppName('my-fb-login');
 }]);
