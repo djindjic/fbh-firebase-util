@@ -1,2 +1,0 @@
-firebase-facebook-login-directive
-=================================
