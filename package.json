@@ -1,9 +1,6 @@
 {
   "registry": "jspm",
-  "directories": {
-    "lib": "lib"
-  },
-  "main": "fbhFirebaseUtil",
+  "main": "lib/fbhFirebaseUtil",
   "dependencies": {
     "text": "0.0.2",
     "angular": "^1.3.2",
