@@ -1,2 +1,2 @@
-firebase-facebook-login-directive
+fbh-firebase-util
 =================================
