@@ -3,5 +3,5 @@ var gulp  = require('gulp'),
     watch = require('gulp-watch');
  
 gulp.task('default', function(cb) {
-  watch(['lib/**/*'], shell.task(['jspm link github:djindjic/fbh-firebase-util@0.0.19 -y']));
+  watch(['lib/**/*'], shell.task(['jspm link github:djindjic/fbh-firebase-util@0.0.20 -y']));
 });
