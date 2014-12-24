@@ -1,6 +1,6 @@
 {
   "registry": "jspm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/fbhFirebaseUtil",
   "jspm": {
     "dependencies": {
@@ -13,6 +13,7 @@
     "gulp-bump": "^0.1.11",
     "gulp-shell": "^0.2.11",
     "gulp-watch": "^3.0.0",
-    "jspm": "^0.9.0"
+    "jspm": "^0.9.0",
+    "semver": "^4.2.0"
   }
 }
