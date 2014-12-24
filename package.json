@@ -1,12 +1,16 @@
 {
   "registry": "jspm",
+  "version": "0.1.0",
   "main": "lib/fbhFirebaseUtil",
-  "dependencies": {
-    "angular": "^1.3.6",
-    "angularfire": "^0.9.0"
+  "jspm": {
+    "dependencies": {
+      "angular": "^1.3.6",
+      "angularfire": "^0.9.0"
+    }
   },
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-bump": "^0.1.11",
     "gulp-shell": "^0.2.11",
     "gulp-watch": "^3.0.0",
     "jspm": "^0.9.0"
