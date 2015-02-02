@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.10'
+before_script:
+- node_modules/.bin/jspm install
+script: node_modules/karma/bin/karma start karma.conf.js --single-run
+deploy:
+  provider: npm
+  email: djindjic@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: dUohmk0201UUKNhfWqhZSQJnaW4Z20as2mlSKeoSLjSjhYngfmOfefw8WHjEyLi3umWh9FcO0hv3C+sBmLXtLbEfajRe65Z5+d/HBjjadMq3h56OfaJzfLcUGHPJTlx3sAmPH1FIT0ZQ3PtAadO+qxrWsgvqqTBJ7E0JrJfa74I=
+  on:
+    tags: true
+    all_branches: true
