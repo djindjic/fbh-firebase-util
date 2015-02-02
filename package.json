@@ -1,6 +1,6 @@
 {
   "registry": "jspm",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "lib/fbhFirebaseUtil",
   "jspm": {
     "format": "es6",

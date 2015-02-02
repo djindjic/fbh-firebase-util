@@ -21,5 +21,5 @@ gulp.task('deploy-master', function(){
 });
 
 gulp.task('link', function(cb) {
-  watch(['lib/**/*'], shell.task(['jspm link github:djindjic/fbh-firebase-util@' + pkg.version + ' -y']));
+  watch(['lib/**/*'], shell.task(['jspm link npm:fbh-firebase-util@' + pkg.version + ' -y']));
 });

@@ -1,23 +1,4 @@
-var browsers = {
-  sl_firefox: {
-    base: 'SauceLabs',
-    browserName: 'firefox',
-    platform: 'Linux',
-    version: '14'
-  },
-  sl_ios_safari: {
-    base: 'SauceLabs',
-    browserName: 'safari',
-    platform: 'OS X 10.8',
-    version: '6'
-  },
-  sl_ie_9: {
-    base: 'SauceLabs',
-    browserName: 'internet explorer',
-    platform: 'Windows 7',
-    version: '9'
-  }
-};
+var capabilities = require('./sauce_labs_capabilities.js').capabilities;
 
 module.exports = function(config) {
   var configuration = {
@@ -81,17 +62,16 @@ module.exports = function(config) {
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: ['Chrome'],
 
-    customLaunchers: browsers,
-
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false
   };
 
   if(process.env.TRAVIS){
-    configuration.browsers = Object.keys(browsers);
+    configuration.customLaunchers = capabilities;
+    configuration.browsers = Object.keys(capabilities);
     configuration.sauceLabs = {
-        testName: 'fbh-firebase-util test'
+        testName: 'fbh-firebase-util karma test'
     }
   }
 
