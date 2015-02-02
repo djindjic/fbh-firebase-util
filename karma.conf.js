@@ -90,6 +90,9 @@ module.exports = function(config) {
 
   if(process.env.TRAVIS){
     configuration.browsers = Object.keys(browsers);
+    configuration.sauceLabs = {
+        testName: 'fbh-firebase-util test'
+    }
   }
 
   config.set(configuration);
