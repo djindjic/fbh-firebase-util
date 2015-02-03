@@ -8,7 +8,7 @@ deploy:
   provider: npm
   email: djindjic@gmail.com
   api_key:
-    secure: dUohmk0201UUKNhfWqhZSQJnaW4Z20as2mlSKeoSLjSjhYngfmOfefw8WHjEyLi3umWh9FcO0hv3C+sBmLXtLbEfajRe65Z5+d/HBjjadMq3h56OfaJzfLcUGHPJTlx3sAmPH1FIT0ZQ3PtAadO+qxrWsgvqqTBJ7E0JrJfa74I=
+    secure: DFrMmzPi2tGBYF8no36nYqgpWOhzg//90jhMG0twyR1JhOvY6ukN7xRfIPSLVr8J8WP4cKbkaQGD+TwXbNbJS3KP1P3rTsJ8TSVawhIh3yWQJBGLcXTkvwnyscyrPyLXWqzbiFdvbsdlVgu1oxwrGnIK3GWpsq5WmhfnZot7uyc=
   on:
     tags: true
     all_branches: true
