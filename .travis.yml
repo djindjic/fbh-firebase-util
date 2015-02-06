@@ -1,8 +1,10 @@
 language: node_js
+sudo: false
 node_js:
 - '0.10'
 before_script:
-- node_modules/.bin/jspm install
+  - jspm config endpoints.github.auth $JSPM_AUTH
+  - jspm install
 script: node_modules/karma/bin/karma start karma.conf.js --single-run
 deploy:
   provider: npm

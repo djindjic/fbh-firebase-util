@@ -1,8 +1,9 @@
 {
   "name": "fbh-firebase-util",
   "registry": "jspm",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "main": "lib/fbhFirebaseUtil",
+  "repository": "djindjic/fbh-firebase-util",
   "jspm": {
     "format": "es6",
     "dependencies": {
