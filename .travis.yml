@@ -4,11 +4,11 @@ node_js:
 - '0.10'
 before_script:
   - npm install -g jspm
-  - npm install -g karma
+  - npm install -g karma-cli
   - npm install -g divshot-cli
   - jspm config endpoints.github.auth $JSPM_AUTH
   - jspm install
-script: node_modules/karma/bin/karma start karma.conf.js --single-run
+script: karma start karma.conf.js --single-run
 deploy:
   provider: npm
   email: djindjic@gmail.com
