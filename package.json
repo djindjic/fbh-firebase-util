@@ -1,7 +1,7 @@
 {
   "name": "fbh-firebase-util",
   "registry": "jspm",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "main": "lib/fbhFirebaseUtil",
   "repository": "djindjic/fbh-firebase-util",
   "jspm": {
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "gulp": "^3.8.11",
     "gulp-bump": "^0.1.11",
     "gulp-shell": "^0.2.11",
     "gulp-watch": "^3.0.0",
